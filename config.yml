@@ -1,0 +1,20 @@
+baseURL: ""
+languageCode: en-us
+title: My New Hugo Site
+theme: PaperMod
+
+menu:
+    main:
+      # -identifier: categories
+      #  name: categories
+      #  url: /categories/
+      #  weight: 10
+      -identifier: tags
+      #  name: Tags
+      name : "Tags/"
+       url: /tags/
+       weight: 20
+       -identifier: archives
+      #  name: Archives
+       url: /archives/
+       weight: 30
